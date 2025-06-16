@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - WorkForce</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo">WorkForce</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="labour-signup.html">Become a Partner</a></li>
+                <li data-auth-link><a href="login.html" class="btn btn-primary">Login</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="dashboard-page container">
+            <div class="dashboard-header">
+                <h2>Welcome Back!</h2>
+                <p>Explore services or manage your bookings below.</p>
+            </div>
+
+            <div class="search-bar">
+                <input type="text" placeholder="Search for a service (e.g., Plumber)">
+                <button class="btn btn-primary">Search</button>
+            </div>
+
+            <div class="services-section">
+                <h2>Our Services</h2>
+                <div class="service-categories">
+                    <div class="category-card"><i class="fas fa-wrench"></i><span>Plumbing</span></div>
+                    <div class="category-card"><i class="fas fa-bolt"></i><span>Electrical</span></div>
+                    <div class="category-card"><i class="fas fa-paint-roller"></i><span>Painting</span></div>
+                    <div class="category-card"><i class="fas fa-broom"></i><span>Cleaning</span></div>
+                    <div class="category-card"><i class="fas fa-hard-hat"></i><span>Construction</span></div>
+                    <div class="category-card"><i class="fas fa-cut"></i><span>Gardening</span></div>
+                    <div class="category-card"><i class="fas fa-car"></i><span>Mechanic</span></div>
+                    <div class="category-card"><i class="fas fa-plus"></i><span>More</span></div>
+                </div>
+            </div>
+
+            <div class="booking-list">
+                <h2>Recent Bookings</h2>
+                <div class="booking-item">
+                    <div>
+                        <h4>Plumbing Service</h4>
+                        <p>Booked on: June 15, 2025 | Time: 10:00 AM</p>
+                        <p>Professional: Rajesh Kumar</p>
+                    </div>
+                    <span class="booking-status status-upcoming">Upcoming</span>
+                </div>
+                <div class="booking-item">
+                    <div>
+                        <h4>Electrical Repair</h4>
+                        <p>Booked on: June 10, 2025 | Time: 2:00 PM</p>
+                        <p>Professional: Anita Sharma</p>
+                    </div>
+                    <span class="booking-status status-completed">Completed</span>
+                </div>
+                <div class="booking-item">
+                    <div>
+                        <h4>Cleaning Service</h4>
+                        <p>Booked on: June 5, 2025 | Time: 9:00 AM</p>
+                        <p>Professional: Vikram Singh</p>
+                    </div>
+                    <span class="booking-status status-completed">Completed</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>WorkForce</h3>
+                    <p>Connecting you with skilled labour for all your needs.</p>
+                    <div class="app-links">
+                        <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png" alt="Google Play"></a>
+                        <a href="#"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store"></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Srinagar, J&K, India</p>
+                    <p><i class="fas fa-phone"></i> +91 12345 67890</p>
+                    <p><i class="fas fa-envelope"></i> contact@workforce.com</p>
+                </div>
+            </div>
+            <div class="copyright">
+                © 2025 WorkForce. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
