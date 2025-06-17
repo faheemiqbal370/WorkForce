@@ -1,6 +1,5 @@
-/* =================== */
 /* GLOBAL & VARIABLES  */
-/* =================== */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 :root {
@@ -51,10 +50,7 @@ ul {
     margin: 0 auto;
     padding: 0 20px;
 }
-
-/* =================== */
-/* UTILITY CLASSES     */
-/* =================== */
+/* UTILITY CLASSES */
 .btn {
     display: inline-block;
     padding: 12px 28px;
@@ -92,10 +88,7 @@ ul {
     width: 100%;
     text-align: center;
 }
-
-/* =================== */
 /* HEADER & NAVIGATION */
-/* =================== */
 header {
     background: #fff;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -157,10 +150,8 @@ header nav {
     margin: 5px;
     transition: all 0.3s ease;
 }
+/* HERO SECTION */
 
-/* =================== */
-/* HERO SECTION        */
-/* =================== */
 .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=2070&auto=format&fit=crop') no-repeat center center/cover;
     color: #fff;
@@ -198,10 +189,7 @@ header nav {
     width: 30%;
     border-radius: 0 5px 5px 0;
 }
-
-/* =================== */
-/* SECTIONS            */
-/* =================== */
+/* SECTIONS  */
 .services-section, .how-it-works-section, .reviews-section, .login-page, .dashboard-page {
     padding: 60px 0;
 }
@@ -306,10 +294,8 @@ header nav {
     margin-top: 1rem;
     margin-bottom: 0;
 }
-
-/* =================== */
 /* FOOTER              */
-/* =================== */
+
 footer {
     background: #222;
     color: #fff;
@@ -364,10 +350,8 @@ footer {
     font-size: 0.9rem;
     color: #ccc;
 }
-
-/* =================== */
 /* LOGIN PAGE & FORMS  */
-/* =================== */
+
 .login-page {
     display: flex;
     justify-content: center;
@@ -443,10 +427,8 @@ footer {
     margin-top: 1.5rem;
     font-size: 0.9rem;
 }
-
-/* =================== */
 /* DASHBOARD & BOOKINGS */
-/* =================== */
+
 .dashboard-header {
     margin-bottom: 2rem;
     
@@ -522,10 +504,8 @@ footer {
     background: var(--warning-color);
     color: var(--text-color);
 }
-
-/* =================== */
 /* RESPONSIVE DESIGN   */
-/* =================== */
+
 @media (max-width: 768px) {
     h1 { font-size: 2.5rem; }
     h2 { font-size: 1.8rem; }
@@ -569,9 +549,8 @@ footer {
     }
     .hero-cta input { margin-bottom: 10px; }
 }
-/* =================== */
 /* ABOUT PAGE          */
-/* =================== */
+
 .about-hero {
     padding: 80px 0;
     text-align: center;
